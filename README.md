@@ -14,6 +14,19 @@
 			</tr>
 		</table>
 		<hr>
-		<img src="\homepagepic.jpg" alt="Home Page Picture" style="width: 400px;height: 150px"/>
+		<table border="1" width="100%">
+			<tr align="middle">
+				<td><img src="\homepagepic.jpg" alt="Home Page Picture" style="width: 400px; height: 150px" />
+			</tr>
+			<tr align="middle">
+				<td><p>Restaurant discription: <br>
+					This is about the restaurant. This is about the restaurant. This is about the restaurant. 
+					This is about the restaurant. This is about the restaurant. This is about the restaurant.
+					This is about the restaurant. This is about the restaurant. This is about the restaurant. 
+					This is about the restaurant. This is about the restaurant. This is about the restaurant.
+				</p></td>
+			</tr>
+		</table>
+		
 	</body>
 </html>
