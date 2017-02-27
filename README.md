@@ -14,7 +14,7 @@
 			</tr>
 		</table>
 		<hr>
-		<table border="1" width="100%">
+		<table border="0" width="100%">
 			<tr align="middle">
 				<td><img src="\homepagepic.jpg" alt="Home Page Picture" style="width: 400px; height: 150px" />
 			</tr>
