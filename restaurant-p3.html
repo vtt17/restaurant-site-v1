@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Contact Us </title>
+	</head>
+	<body>
+		<h1 align="middle" style="color: blue"> Good Food Restaurant </h1>
+		<hr>
+		<table width="30%">
+			<tr>
+				<th> <a href="restaurant-p1.html"> Home </a></th>
+				<th> <a href="restaurant-p2.html"> Menu </a></th>
+				<th> Contact Us </th>
+			</tr>
+		</table>
+		<hr>
+		<form action="fakePage.html" method="POST">
+		<table width="80%" height="400">
+			<tr>
+				<td align="right"><b> Name: </b></td>
+				<td><input type="text" name="name"/></td>
+			</tr>
+			<tr>					
+				<td align="right"><b> Email: </b></td>
+				<td><input type="text" name="email"/></td>
+			</tr>
+			<tr>
+				<td align="right"><b> Phone: </b></td>
+				<td><input type="text" name="phone"/></td>
+			</tr>
+			<tr>
+				<td align="right"><b> Reason for Inquiry: </b></td>
+				<td>
+					<select name="reason">
+						<option value="catering"> Catering </option>
+						<option value="party"> Private Party </option>
+						<option value="feedback"> Feedback </option>
+						<option value="other"> Other </option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td align="right"><b> Additional Information: </b></td>
+				<td><textarea name="addtionalInfo"></textarea></td>
+			</tr>
+			<tr>
+				<td align="right"><b> Have you been to the restaurant? </b></td>
+				<td>
+					<input type="radio" name="visit" value="no" checked /> No 
+					<input type="radio" name="visit" value="yes" /> Yes 
+				</td>
+			</tr>
+			<tr>
+				<td align="right"><b> Best days to contact you: </b></td>
+				<td>
+					<input type="checkbox" name="contactday" value="monday"/> M
+					<input type="checkbox" name="contactday" value="tuesday"/> T
+					<input type="checkbox" name="contactday" value="wednesday"/> W
+					<input type="checkbox" name="contactday" value="thursday"/> Th
+					<input type="checkbox" name="contactday" value="friday"/> F
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td align="middle"><input type="submit" value="Send Request"/></td>
+			</tr>
+		</table>
+		</form>
+		<br><br>
+		<hr>
+	</body>
+	<footer align="middle">
+		1234 Food Now Street, Akron, Ohio 44444 <br>
+		222-333-4444
+	</footer>
+</html>
